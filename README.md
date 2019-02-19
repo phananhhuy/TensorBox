@@ -13,27 +13,27 @@ for decompositions of multiway array data into rank-1 tensors such as
 
 #  Algorithms for CANDECOMP/PARAFAC decomposition (CPD)
 
--FastALS :   fast ALS algorithm employs the fast method to compute CP
-            gradients. 
-            Other alternating and all-at-once algorithms for CPD can be
-            accelerated using the similar method. 
-            See HALS, QALS, MLS, fLM and subfunction of FastALS:
-            cp_gradient. 
+  -FastALS :   fast ALS algorithm employs the fast method to compute CP
+              gradients. 
+              Other alternating and all-at-once algorithms for CPD can be
+              accelerated using the similar method. 
+              See HALS, QALS, MLS, fLM and subfunction of FastALS:
+              cp_gradient. 
 
--HALS        hierarchical ALS algorithm for nonnegative CPD (NCPD)
--QALS        recursive ALS algorithm for nonnegative CPD (NCPD)
--MLS         multiplicative algorithm for NCPD
--fLM         fast damped Gauss-Newton or Levenberg-Marquardt algorithm for
-            CPD and NCPD
-            (see cp_fLMa and cpx_fLMa, ncp_fLM)  
--FCP         fast algorithm for higher order CPD through tensor unfolding
--XGRAM       extended generalized rank annihilation method (GRAM) and
-            direct trilinear decomposition (DLTD) to higher order CPD
+  -HALS        hierarchical ALS algorithm for nonnegative CPD (NCPD)
+  -QALS        recursive ALS algorithm for nonnegative CPD (NCPD)
+  -MLS         multiplicative algorithm for NCPD
+  -fLM         fast damped Gauss-Newton or Levenberg-Marquardt algorithm for
+              CPD and NCPD
+              (see cp_fLMa and cpx_fLMa, ncp_fLM)  
+  -FCP         fast algorithm for higher order CPD through tensor unfolding
+  -XGRAM       extended generalized rank annihilation method (GRAM) and
+              direct trilinear decomposition (DLTD) to higher order CPD
             
--CPO-ALS1    ALS algorithm for CPD with column-wise orthogonal factor
--CPO-ALS2    ALS algorithm for CPD with column-wise orthogonal factor
+  -CPO-ALS1    ALS algorithm for CPD with column-wise orthogonal factor
+  -CPO-ALS2    ALS algorithm for CPD with column-wise orthogonal factor
 
--CRIB       Cramer-Rao Induced Bound for CPD.
+  -CRIB       Cramer-Rao Induced Bound for CPD.
 
 #  Algorithms for Tensor Deflation and Rank-1 tensor extraction 
 -ASU         Alternating Subspace update. The algorithm extracts a rank-1
