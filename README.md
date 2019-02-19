@@ -20,18 +20,18 @@ for decompositions of multiway array data into rank-1 tensors such as
             See HALS, QALS, MLS, fLM and subfunction of FastALS:
             cp_gradient. 
 
--HALS        hierarchical ALS algorithm for nonnegative CPD (NCPD).
--QALS        recursive ALS algorithm for nonnegative CPD (NCPD).
--MLS         multiplicative algorithm for NCPD.
+-HALS        hierarchical ALS algorithm for nonnegative CPD (NCPD)
+-QALS        recursive ALS algorithm for nonnegative CPD (NCPD)
+-MLS         multiplicative algorithm for NCPD
 -fLM         fast damped Gauss-Newton or Levenberg-Marquardt algorithm for
             CPD and NCPD
             (see cp_fLMa and cpx_fLMa, ncp_fLM)  
--FCP         fast algorithm for higher order CPD through tensor unfolding.
+-FCP         fast algorithm for higher order CPD through tensor unfolding
 -XGRAM       extended generalized rank annihilation method (GRAM) and
-            direct trilinear decomposition (DLTD) to higher order CPD.
+            direct trilinear decomposition (DLTD) to higher order CPD
             
--CPO-ALS1    ALS algorithm for CPD with column-wise orthogonal factor.
--CPO-ALS2    ALS algorithm for CPD with column-wise orthogonal factor.
+-CPO-ALS1    ALS algorithm for CPD with column-wise orthogonal factor
+-CPO-ALS2    ALS algorithm for CPD with column-wise orthogonal factor
 
 -CRIB       Cramer-Rao Induced Bound for CPD.
 
